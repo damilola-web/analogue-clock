@@ -1,2 +1,2 @@
 # analogue clock
- my first practical on javascript
+ My first JavaScript mini project
