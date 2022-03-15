@@ -27,7 +27,8 @@ function drawFace(ctx, radius){
     ctx.fill();
     //create a radial gradient(inner, middle and outer edge of the clock)
     grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-    grad.addColorStop(0.5, '#333');
+
+    grad.addColorStop(1, '#333');
     grad.addColorStop(0.5, 'white');
     grad.addColorStop(1, '#333');
     //define gradient as stroke style
